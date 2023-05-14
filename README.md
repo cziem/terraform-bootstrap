@@ -76,7 +76,7 @@ $ terraform plan
 $ terraform apply --auto-approve
 ```
 
-* **Step 7: Check if the ECS Sample application is working.**
+* **Step 6: Check if the ECS Sample application is working.**
 In the output section of the 100compute layer, there will be an output called `ecs_alb_dns`.
 
 Wait for around 3-5 minutes. Paste value in your Browser.
@@ -85,7 +85,7 @@ You should be able to see:
 
 ![Sample](.github/img/sample-rails-container.png)
 
-* **Step 8: Check if the Streaming Server sample application is working.**
+* **Step 7: Check if the Streaming Server sample application is working.**
 In the output section of the 100compute layer, there will be an output called `streaming_server_alb_dns`.
 
 Wait for around 3-5 minutes. Paste value in your Browser.
