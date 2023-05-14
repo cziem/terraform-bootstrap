@@ -52,7 +52,7 @@ $ terraform plan
 $ terraform apply --auto-approve
 ```
 
-* **Step 4: Create your Key Pair for both the Bastion and Streaming Server instances.** We'll need Key Pairs to login to both the Jumphost and the Streaming Server instances respectively.
+* **Step 4: Create your Key Pair for both the Bastion and Streaming Server instances.** We'll need Key Pairs to login to both the Bastion and the Streaming Server instances respectively.
 
 Login to AWS Console > AWS > Key Pair > click `Create key pair`
 Select `RSA` as Key Pair Type.
